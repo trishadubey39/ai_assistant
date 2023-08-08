@@ -1,5 +1,9 @@
 package com.example.chatgptapp
 
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class BaseActivity {
-}
+
+@HiltAndroidApp
+class BaseActivity : Application()
+
