@@ -17,9 +17,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.chatgptapp.ui.theme.ChatGptAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 import java.util.Objects
 import kotlin.math.sqrt
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private var sensorManager : SensorManager? = null
     private var acceleration = 0f
